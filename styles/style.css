@@ -13,7 +13,7 @@ body {
     max-height: 646px;
     background-color: #161616;
     border-radius: 30px;
-    margin: 50px 140px;
+    margin: 50px 140px 130px 140px;
     color: white;
 }
 
@@ -22,8 +22,6 @@ body {
 }
 
 .banner-text-header {
-    max-width: 531px;
-    max-height: 240px;
     font-size: 25px;
     font-weight: 700;
 }
@@ -41,15 +39,50 @@ body {
     border-radius: 5px;
 
 }
-.watch-live a{
+
+.watch-live a {
     font-size: 16px;
     text-decoration: none;
     color: white;
-    
+
 }
-.banner-pic{
+
+.banner-pic {
     position: relative;
     padding: 33px 79px 0px 12px;
     top: 64px;
     left: 14px
+}
+
+/* middle styles */
+
+
+.middle{
+    display: flex;
+}
+
+.sidebar{
+    background-color: #161616;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 10px;
+    max-width: 120px;
+    max-height: 150px;
+    border-radius: 10px;
+    align-items: center;
+
+}
+.page{
+    max-width: 100px;
+    max-height: 64px;
+    border: 1px solid #161616;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.active-page{
+    background-color: red;
+    color: white;
 }
