@@ -4,6 +4,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: whitesmoke;
+    margin: 0;
 }
 
 /* banner-styles */
@@ -119,4 +120,50 @@ body {
 .icons img{
     max-width: 15px;
     max-height: 15px;
+}
+
+/* hidden-button-styles */
+.hidden-button{
+    max-width: 100px;
+    max-height: 64px;
+    border: 1px solid red;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    position: relative;
+    left: 50%;
+    display: none;
+
+}
+/* footer-styles */
+.footer{
+    background-color: #161616;
+    padding: 20px;
+
+}
+.footer h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+hr{
+    border: 1px solid #FFFFFF1A
+}
+
+.footer-txt{
+    margin: 50px 200px 0px;
+}
+.footer-txt span{
+    margin-left: 25px;
+    color: white;
+}
+.socials{
+    text-align: center;
+    color: white;
+}
+.fa-brands{
+    margin: 20px 10px;
 }
