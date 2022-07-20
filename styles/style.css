@@ -59,6 +59,7 @@ body {
 
 .middle{
     display: flex;
+    margin-left: 40px;
 }
 
 .sidebar{
@@ -71,6 +72,7 @@ body {
     max-height: 150px;
     border-radius: 10px;
     align-items: center;
+    margin-top: 7px;
 
 }
 .page{
@@ -85,4 +87,36 @@ body {
 .active-page{
     background-color: red;
     color: white;
+}
+.blog{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
+}
+
+.blog-txt{
+    margin: 20px;
+}
+.transfer{
+    border: 1px solid black;
+    max-width: 100px;
+    max-height: 32px;
+    text-align: center;
+    border-radius: 10px;
+}
+.blog-news{
+    max-width: 272px;
+    max-height: 54px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    max-width: 143px;
+    max-height: 26px;
+}
+.icons img{
+    max-width: 15px;
+    max-height: 15px;
 }
